@@ -18,4 +18,6 @@ int main(void)
 		}
 		lower_case++;
 	}
-{
+	putchar('\n');
+	return (0);
+}
