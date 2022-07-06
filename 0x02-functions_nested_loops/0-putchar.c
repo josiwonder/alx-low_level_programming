@@ -1,20 +1,19 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - check the code
  *
- * Return: Always 0.
+ *Return: Always 0.
+ *_putchar function to output
  */
-
-int _putchar( );
-
+int _putchar(void);
 int main(void)
 {
-   _putchar();
-   return 0;
+	_putchar();
+	return (0);
 }
 
-int _putchar( )
+int _putchar(void)
 {
-printf ("_purtchar \n");
-return 0;
+	("_purtchar \n");
+	return (0);
 }
