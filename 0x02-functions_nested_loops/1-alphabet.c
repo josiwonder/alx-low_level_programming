@@ -10,8 +10,10 @@ int main(void)
 	return (0);
 }
 
-int print_alphabet(char ch)
+
+void print_alphabet(void)
 {
+	int ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		_putchar(ch);
