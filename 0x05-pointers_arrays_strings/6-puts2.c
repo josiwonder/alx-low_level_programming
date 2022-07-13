@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * puts2 - prints a string, followed by a new line,
  * @str: pointer to the string to print
@@ -8,7 +8,7 @@ void puts2(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '/0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i % 2 == 0)
 		{
