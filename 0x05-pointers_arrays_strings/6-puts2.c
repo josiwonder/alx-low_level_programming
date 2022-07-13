@@ -1,7 +1,8 @@
 include "main.h"
 /**
- * main - print even numbers
- * puts2 - print a string followed by a new line
+ * puts2 - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
 void puts2(char *str)
 {
